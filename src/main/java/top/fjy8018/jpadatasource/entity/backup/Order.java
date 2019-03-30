@@ -1,4 +1,4 @@
-package top.fjy8018.jpadatasource.entity;
+package top.fjy8018.jpadatasource.entity.backup;
 
 import lombok.Data;
 
@@ -7,16 +7,16 @@ import javax.persistence.Id;
 
 /**
  * @author F嘉阳
- * @date 2019-03-30 9:11
+ * @date 2019-03-30 9:36
  */
 @Data
-@Entity
-public class Product {
+@Entity(name = "tb_order")
+public class Order {
 
     @Id
     private Integer id;
 
-    private String name;
+    private String orderName;
 
     private Integer price;
 }
