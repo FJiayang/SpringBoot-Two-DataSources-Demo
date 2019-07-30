@@ -2,16 +2,16 @@ spring:
   datasource:
     first:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      username: financial_adminer
-      password: financial_adminer_pass
-      url: jdbc:mysql://120.79.226.26/jpa_test?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+      username: root
+      password: 
+      url: jdbc:mysql://db/jpa_test?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
       configuration:
         maximum-pool-size: 30
     second:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      username: financial_adminer
-      password: financial_adminer_pass
-      url: jdbc:mysql://120.79.226.26/jpa_test_bak?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+      username: root
+      password: 
+      url: jdbc:mysql://db/jpa_test_bak?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
       configuration:
         maximum-pool-size: 20
 
